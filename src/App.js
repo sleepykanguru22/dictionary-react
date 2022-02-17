@@ -5,9 +5,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header"></header>
-      <p> 📖+👋🏽</p>
+      <h1>
+        Dictionary App <br />
+        📖+👋🏽
+      </h1>
       <p>
-        <Dictionary />
+        <Dictionary defaultKeyword="dictionary" />
       </p>
     </div>
   );
